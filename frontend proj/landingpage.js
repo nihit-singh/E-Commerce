@@ -33,18 +33,56 @@ function renderBookCards(books) {
         const card = document.createElement('div');
         card.classList.add('product-card');
         
+        const cartItem = cart.find(item => item.id === book.id);
+        const quantity = cartItem ? cartItem.quantity : 0;
+        
         card.innerHTML = `
             <img src="${book.image}" alt="${book.title} book cover">
             <h3>${book.title}</h3>
             <p>${book.description}</p>
             <div class="rating">${book.rating} (${book.reviews.toLocaleString()})</div>
             <div class="price" data-price="${book.price.toFixed(2)}">$${book.price.toFixed(2)}</div>
-            <button class="add-cart" data-book-id="${book.id}">+ Add to Cart</button>
+            <div class="cart-controls-container">
+                <button class="add-cart" data-book-id="${book.id}" style="display: ${quantity > 0 ? 'none' : 'inline-block'};">+ Add to Cart</button>
+                <div class="quantity-controls" data-book-id="${book.id}" style="display: ${quantity > 0 ? 'flex' : 'none'};">
+                    <button class="qty-btn qty-minus" data-book-id="${book.id}">−</button>
+                    <span class="qty-display">${quantity}</span>
+                    <button class="qty-btn qty-plus" data-book-id="${book.id}">+</button>
+                </div>
+            </div>
         `;
         container.appendChild(card);
     });
 
     bindAddToCartListeners();
+    bindQuantityControlListeners();
+}
+
+function updateQuantityControls(bookId) {
+    const cartItem = cart.find(item => item.id === bookId);
+    const quantity = cartItem ? cartItem.quantity : 0;
+    
+    const addButton = document.querySelector(`.add-cart[data-book-id="${bookId}"]`);
+    const quantityControls = document.querySelector(`.quantity-controls[data-book-id="${bookId}"]`);
+    const qtyDisplay = quantityControls?.querySelector('.qty-display');
+    
+    if (quantity > 0) {
+        if (addButton) addButton.style.display = 'none';
+        if (quantityControls) {
+            quantityControls.style.display = 'flex';
+            if (qtyDisplay) qtyDisplay.textContent = quantity;
+        }
+    } else {
+        if (addButton) addButton.style.display = 'inline-block';
+        if (quantityControls) quantityControls.style.display = 'none';
+    }
+}
+
+function updateAllQuantityControls() {
+    document.querySelectorAll('.quantity-controls').forEach(controls => {
+        const bookId = parseInt(controls.getAttribute('data-book-id'));
+        updateQuantityControls(bookId);
+    });
 }
 
 function filterAndRenderBooks() {
@@ -100,6 +138,8 @@ function renderCart() {
       removeItemFromCart(parseInt(event.currentTarget.getAttribute('data-item-id')));
     });
   });
+  
+  updateAllQuantityControls();
 }
 
 function addItemToCart(bookId) {
@@ -120,7 +160,34 @@ function addItemToCart(bookId) {
   }
 
   renderCart(); 
+  updateQuantityControls(bookId);
   showNotification(`✅ "${book.title}" added to cart!`);
+}
+
+function increaseQuantity(bookId) {
+  const book = featuredBooks.find(b => b.id === bookId);
+  if (!book) return;
+
+  const existingItem = cart.find(item => item.id === bookId);
+  if (existingItem) {
+    existingItem.quantity += 1;
+    renderCart();
+    updateQuantityControls(bookId);
+  }
+}
+
+function decreaseQuantity(bookId) {
+  const existingItem = cart.find(item => item.id === bookId);
+  if (!existingItem) return;
+
+  if (existingItem.quantity > 1) {
+    existingItem.quantity -= 1;
+  } else {
+    cart = cart.filter(item => item.id !== bookId);
+  }
+  
+  renderCart();
+  updateQuantityControls(bookId);
 }
 
 function removeItemFromCart(itemId) {
@@ -184,9 +251,30 @@ function bindAddToCartListeners() {
     });
 }
 
+function bindQuantityControlListeners() {
+    document.querySelectorAll('.qty-plus').forEach(btn => {
+        if (btn.hasAttribute('data-listener-bound')) return;
+        btn.setAttribute('data-listener-bound', 'true');
+        
+        btn.addEventListener('click', (event) => {
+            const bookId = parseInt(event.currentTarget.getAttribute('data-book-id'));
+            increaseQuantity(bookId);
+        });
+    });
+    
+    document.querySelectorAll('.qty-minus').forEach(btn => {
+        if (btn.hasAttribute('data-listener-bound')) return;
+        btn.setAttribute('data-listener-bound', 'true');
+        
+        btn.addEventListener('click', (event) => {
+            const bookId = parseInt(event.currentTarget.getAttribute('data-book-id'));
+            decreaseQuantity(bookId);
+        });
+    });
+}
+
 function setupSearchListener() {
     const searchInput = document.getElementById('search');
-    // Using 'keyup' for live searching
     searchInput.addEventListener('keyup', filterAndRenderBooks);
 }
 
