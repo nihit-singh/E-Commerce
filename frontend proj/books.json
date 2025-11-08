@@ -58,5 +58,945 @@
     "reviews": 1790,
     "image": "https://m.media-amazon.com/images/I/71g2ednj0JL._AC_UY327_FMwebp_QL65_.jpg",
     "category": "Self-Help"
+  },
+  {
+    "id": 7,
+    "title": "1984",
+    "description": "Dystopian masterpiece about surveillance and totalitarianism.",
+    "price": 9.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 5432,
+    "image": "https://m.media-amazon.com/images/I/71kxa1-0mfL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 8,
+    "title": "The 7 Habits of Highly Effective People",
+    "description": "Powerful lessons in personal change by Stephen Covey.",
+    "price": 16.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 3210,
+    "image": "https://m.media-amazon.com/images/I/51S27HvsRzL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 9,
+    "title": "The Lean Startup",
+    "description": "How constant innovation creates successful businesses.",
+    "price": 18.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2890,
+    "image": "https://m.media-amazon.com/images/I/81-QB7nDh4L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 10,
+    "title": "To Kill a Mockingbird",
+    "description": "Classic tale of racial injustice and childhood innocence.",
+    "price": 10.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 6789,
+    "image": "https://m.media-amazon.com/images/I/71FxgtFKcQL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 11,
+    "title": "The 4-Hour Workweek",
+    "description": "Escape the 9-5 and live anywhere by Tim Ferriss.",
+    "price": 14.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 4321,
+    "image": "https://m.media-amazon.com/images/I/81qw+-PSSZL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 12,
+    "title": "Sapiens",
+    "description": "A brief history of humankind by Yuval Noah Harari.",
+    "price": 19.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 7654,
+    "image": "https://m.media-amazon.com/images/I/713jIoMO3UL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Support"
+  },
+  {
+    "id": 13,
+    "title": "The Great Gatsby",
+    "description": "The American dream and Jazz Age excess.",
+    "price": 8.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 5234,
+    "image": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 14,
+    "title": "Deep Work",
+    "description": "Rules for focused success in a distracted world.",
+    "price": 15.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2987,
+    "image": "https://m.media-amazon.com/images/I/81F90H7hnML._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 15,
+    "title": "Zero to One",
+    "description": "Notes on startups and building the future.",
+    "price": 17.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 3456,
+    "image": "https://m.media-amazon.com/images/I/71d6ucLlI1L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 16,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "description": "The magical beginning of Harry's journey.",
+    "price": 12.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 9876,
+    "image": "https://m.media-amazon.com/images/I/81YOuOGFCJL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 17,
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "description": "A counterintuitive approach to living a good life.",
+    "price": 13.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 4567,
+    "image": "https://m.media-amazon.com/images/I/71QKQ9mwV7L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 18,
+    "title": "Good to Great",
+    "description": "Why some companies make the leap and others don't.",
+    "price": 16.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 2345,
+    "image": "https://m.media-amazon.com/images/I/81xknGJo9aL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 19,
+    "title": "The Hobbit",
+    "description": "Bilbo Baggins' unexpected journey to reclaim treasure.",
+    "price": 11.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 8765,
+    "image": "https://m.media-amazon.com/images/I/712cDO7d73L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 20,
+    "title": "Educated",
+    "description": "A memoir about the transformative power of education.",
+    "price": 14.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 5678,
+    "image": "https://m.media-amazon.com/images/I/71-4MkLN5jL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Support"
+  },
+  {
+    "id": 21,
+    "title": "Can't Hurt Me",
+    "description": "Master your mind and defy the odds by David Goggins.",
+    "price": 15.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 3987,
+    "image": "https://m.media-amazon.com/images/I/81F7z36wHWL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 22,
+    "title": "The Intelligent Investor",
+    "description": "The definitive book on value investing.",
+    "price": 19.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 4123,
+    "image": "https://m.media-amazon.com/images/I/91+T1ZhwHWL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 23,
+    "title": "Pride and Prejudice",
+    "description": "Jane Austen's timeless romance classic.",
+    "price": 7.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 6543,
+    "image": "https://m.media-amazon.com/images/I/71Q1tPupKjL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 24,
+    "title": "The 5 AM Club",
+    "description": "Own your morning and elevate your life.",
+    "price": 16.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2876,
+    "image": "https://m.media-amazon.com/images/I/71zytzrg6lL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 25,
+    "title": "Start with Why",
+    "description": "How great leaders inspire everyone to take action.",
+    "price": 15.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 3654,
+    "image": "https://m.media-amazon.com/images/I/71p6K4fLBrL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 26,
+    "title": "Dune",
+    "description": "Epic science fiction on a desert planet.",
+    "price": 13.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 7890,
+    "image": "https://m.media-amazon.com/images/I/81zN7udGRUL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 27,
+    "title": "The Mountain Is You",
+    "description": "Transforming self-sabotage into self-mastery.",
+    "price": 12.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2543,
+    "image": "https://m.media-amazon.com/images/I/71lKXDkMG6L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 28,
+    "title": "Thinking, Fast and Slow",
+    "description": "Two systems that drive the way we think.",
+    "price": 18.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 5234,
+    "image": "https://m.media-amazon.com/images/I/71-L5K0RB1L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 29,
+    "title": "The Catcher in the Rye",
+    "description": "Holden Caulfield's story of teenage rebellion.",
+    "price": 9.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 5432,
+    "image": "https://m.media-amazon.com/images/I/8125BDk3l9L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 30,
+    "title": "12 Rules for Life",
+    "description": "An antidote to chaos by Jordan Peterson.",
+    "price": 17.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 4321,
+    "image": "https://m.media-amazon.com/images/I/71-Xh+tmkeL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 31,
+    "title": "The E-Myth Revisited",
+    "description": "Why most small businesses don't work.",
+    "price": 14.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 2987,
+    "image": "https://m.media-amazon.com/images/I/71-vL6GdL-L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 32,
+    "title": "The Lord of the Rings",
+    "description": "The epic quest to destroy the One Ring.",
+    "price": 24.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 12345,
+    "image": "https://m.media-amazon.com/images/I/71jLBXtWJWL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 33,
+    "title": "Homo Deus",
+    "description": "A brief history of tomorrow.",
+    "price": 18.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 4567,
+    "image": "https://m.media-amazon.com/images/I/71V7dOJOZzL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Support"
+  },
+  {
+    "id": 34,
+    "title": "Mindset",
+    "description": "The new psychology of success by Carol Dweck.",
+    "price": 13.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 3876,
+    "image": "https://m.media-amazon.com/images/I/71t8xlpDdOL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 35,
+    "title": "Principles",
+    "description": "Life and work by Ray Dalio.",
+    "price": 21.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 3456,
+    "image": "https://m.media-amazon.com/images/I/71am0V8OkfL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 36,
+    "title": "Brave New World",
+    "description": "Aldous Huxley's vision of a dystopian future.",
+    "price": 10.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 4987,
+    "image": "https://m.media-amazon.com/images/I/81p1wMJXu7L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 37,
+    "title": "The Four Agreements",
+    "description": "A practical guide to personal freedom.",
+    "price": 11.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 3210,
+    "image": "https://m.media-amazon.com/images/I/61aX0O3KFQL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 38,
+    "title": "Influence",
+    "description": "The psychology of persuasion by Robert Cialdini.",
+    "price": 16.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 2876,
+    "image": "https://m.media-amazon.com/images/I/71chbXPZpyL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 39,
+    "title": "The Kite Runner",
+    "description": "A story of friendship and redemption in Afghanistan.",
+    "price": 12.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 6789,
+    "image": "https://m.media-amazon.com/images/I/81IzbD2IiIL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 40,
+    "title": "The Miracle Morning",
+    "description": "The not-so-obvious secret to transforming your life.",
+    "price": 13.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2543,
+    "image": "https://m.media-amazon.com/images/I/71GCDoGLwCL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 41,
+    "title": "The Hard Thing About Hard Things",
+    "description": "Building a business when there are no easy answers.",
+    "price": 19.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 3987,
+    "image": "https://m.media-amazon.com/images/I/71NWWdk3FsL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 42,
+    "title": "Animal Farm",
+    "description": "Orwell's allegorical tale of power and corruption.",
+    "price": 8.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 5678,
+    "image": "https://m.media-amazon.com/images/I/71rmb0xGTYL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 43,
+    "title": "The Body Keeps the Score",
+    "description": "Brain, mind, and body in the healing of trauma.",
+    "price": 16.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 4123,
+    "image": "https://m.media-amazon.com/images/I/61IBPuFUJrL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 44,
+    "title": "The Innovator's Dilemma",
+    "description": "When new technologies cause great firms to fail.",
+    "price": 17.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2345,
+    "image": "https://m.media-amazon.com/images/I/71qKQ64ExUL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 45,
+    "title": "The Book Thief",
+    "description": "A girl's story in Nazi Germany narrated by Death.",
+    "price": 11.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 7234,
+    "image": "https://m.media-amazon.com/images/I/81Lxi+yElkL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 46,
+    "title": "Man's Search for Meaning",
+    "description": "Viktor Frankl's powerful memoir and philosophy.",
+    "price": 12.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 5432,
+    "image": "https://m.media-amazon.com/images/I/71V5fP-97PL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 47,
+    "title": "Delivering Happiness",
+    "description": "A path to profits, passion, and purpose.",
+    "price": 15.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2876,
+    "image": "https://m.media-amazon.com/images/I/71nN4BH7qSL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 48,
+    "title": "The Night Circus",
+    "description": "A magical competition between two young illusionists.",
+    "price": 13.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 4321,
+    "image": "https://m.media-amazon.com/images/I/81bX5N2SWAL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 49,
+    "title": "How to Win Friends and Influence People",
+    "description": "Dale Carnegie's timeless advice on human relations.",
+    "price": 14.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 6789,
+    "image": "https://m.media-amazon.com/images/I/71vK0WVQ4rL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 50,
+    "title": "The Personal MBA",
+    "description": "Master the art of business without MBA debt.",
+    "price": 18.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2543,
+    "image": "https://m.media-amazon.com/images/I/71bF+dexdEL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 51,
+    "title": "The Handmaid's Tale",
+    "description": "A dystopian novel about a totalitarian society.",
+    "price": 11.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 5987,
+    "image": "https://m.media-amazon.com/images/I/71W3+2EuskL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 52,
+    "title": "Grit",
+    "description": "The power of passion and perseverance.",
+    "price": 15.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 3456,
+    "image": "https://m.media-amazon.com/images/I/71azf8aJvNL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 53,
+    "title": "Traction",
+    "description": "Get a grip on your business.",
+    "price": 16.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 2987,
+    "image": "https://m.media-amazon.com/images/I/71TgIcg5cQL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 54,
+    "title": "The Hunger Games",
+    "description": "A fight for survival in a dystopian future.",
+    "price": 10.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 8765,
+    "image": "https://m.media-amazon.com/images/I/71WSzDCsGEL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 55,
+    "title": "The Gifts of Imperfection",
+    "description": "Let go of who you think you should be.",
+    "price": 13.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2876,
+    "image": "https://m.media-amazon.com/images/I/71HrmqXj9eL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 56,
+    "title": "The $100 Startup",
+    "description": "Reinvent the way you make a living.",
+    "price": 14.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 3210,
+    "image": "https://m.media-amazon.com/images/I/71xn87-EtsL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 57,
+    "title": "The Picture of Dorian Gray",
+    "description": "Oscar Wilde's tale of beauty and moral corruption.",
+    "price": 9.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 4567,
+    "image": "https://m.media-amazon.com/images/I/71+MmCJZKhL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 58,
+    "title": "Daring Greatly",
+    "description": "How the courage to be vulnerable transforms us.",
+    "price": 14.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 3987,
+    "image": "https://m.media-amazon.com/images/I/71H7-ZWPL7L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 59,
+    "title": "Built to Last",
+    "description": "Successful habits of visionary companies.",
+    "price": 17.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2543,
+    "image": "https://m.media-amazon.com/images/I/71wvPPXZl2L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 60,
+    "title": "Fahrenheit 451",
+    "description": "Ray Bradbury's vision of a book-burning future.",
+    "price": 10.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 5234,
+    "image": "https://m.media-amazon.com/images/I/71OFqSRFDgL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 61,
+    "title": "The War of Art",
+    "description": "Break through the blocks and win your inner creative battles.",
+    "price": 12.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2876,
+    "image": "https://m.media-amazon.com/images/I/71dHOaCzJNL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 62,
+    "title": "Crossing the Chasm",
+    "description": "Marketing and selling high-tech products.",
+    "price": 19.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 2345,
+    "image": "https://m.media-amazon.com/images/I/71wUJZ-LDUL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 63,
+    "title": "The Chronicles of Narnia",
+    "description": "Seven classic tales of magic and adventure.",
+    "price": 22.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 7890,
+    "image": "https://m.media-amazon.com/images/I/71yJLhTRr5L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 64,
+    "title": "21 Lessons for the 21st Century",
+    "description": "How to navigate the present by Yuval Noah Harari.",
+    "price": 17.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 3654,
+    "image": "https://m.media-amazon.com/images/I/71VRLXv2OuL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Support"
+  },
+  {
+    "id": 65,
+    "title": "You Are a Badass",
+    "description": "How to stop doubting your greatness.",
+    "price": 13.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 4321,
+    "image": "https://m.media-amazon.com/images/I/71sXl-EYHBL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 66,
+    "title": "Rework",
+    "description": "A better, faster, easier way to succeed in business.",
+    "price": 15.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2987,
+    "image": "https://m.media-amazon.com/images/I/61wa5tyiuqL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 67,
+    "title": "The Outsiders",
+    "description": "A coming-of-age story about class conflict.",
+    "price": 8.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 6543,
+    "image": "https://m.media-amazon.com/images/I/81oIZ7kLnWL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 68,
+    "title": "The Compound Effect",
+    "description": "Small choices lead to radical differences.",
+    "price": 14.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2543,
+    "image": "https://m.media-amazon.com/images/I/71H7W+uOXOL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 69,
+    "title": "The Mom Test",
+    "description": "How to talk to customers and learn if your idea is good.",
+    "price": 16.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 1987,
+    "image": "https://m.media-amazon.com/images/I/71eXLYcHP7L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 70,
+    "title": "Gone Girl",
+    "description": "A psychological thriller about a missing wife.",
+    "price": 12.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 5678,
+    "image": "https://m.media-amazon.com/images/I/71W8cJl9wIL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 71,
+    "title": "The Power of Habit",
+    "description": "Why we do what we do in life and business.",
+    "price": 15.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 4234,
+    "image": "https://m.media-amazon.com/images/I/71wrevIQy6L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 72,
+    "title": "Blue Ocean Strategy",
+    "description": "Create uncontested market space.",
+    "price": 18.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2876,
+    "image": "https://m.media-amazon.com/images/I/71KS5K9AwLL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 73,
+    "title": "The Shining",
+    "description": "Stephen King's chilling tale of isolation and terror.",
+    "price": 11.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 6789,
+    "image": "https://m.media-amazon.com/images/I/81dF5JdQ2yL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 74,
+    "title": "The Gap and The Gain",
+    "description": "The high achievers' guide to happiness.",
+    "price": 14.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 1876,
+    "image": "https://m.media-amazon.com/images/I/71lWHUGUgML._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 75,
+    "title": "The Outsider",
+    "description": "A truly chilling Stephen King masterpiece.",
+    "price": 13.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 3987,
+    "image": "https://m.media-amazon.com/images/I/91I2N0GgxhL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 76,
+    "title": "The Almanack of Naval Ravikant",
+    "description": "A guide to wealth and happiness.",
+    "price": 16.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 2543,
+    "image": "https://m.media-amazon.com/images/I/71-ktjEz7LL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 77,
+    "title": "Little Women",
+    "description": "Louisa May Alcott's beloved coming-of-age story.",
+    "price": 9.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 5432,
+    "image": "https://m.media-amazon.com/images/I/71v4TJOl1gL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 78,
+    "title": "Limitless",
+    "description": "Upgrade your brain and learn anything faster.",
+    "price": 17.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2345,
+    "image": "https://m.media-amazon.com/images/I/71D2iWaWCuL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 79,
+    "title": "High Output Management",
+    "description": "Andrew Grove's timeless management wisdom.",
+    "price": 19.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 1987,
+    "image": "https://m.media-amazon.com/images/I/71UB2bfpDJL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 80,
+    "title": "A Thousand Splendid Suns",
+    "description": "A story of friendship between two Afghan women.",
+    "price": 12.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 7234,
+    "image": "https://m.media-amazon.com/images/I/71fUt-lhUiL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 81,
+    "title": "The Untethered Soul",
+    "description": "The journey beyond yourself.",
+    "price": 13.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 3456,
+    "image": "https://m.media-amazon.com/images/I/71eIWyx-woL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 82,
+    "title": "The Business of the 21st Century",
+    "description": "Robert Kiyosaki on network marketing.",
+    "price": 15.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2876,
+    "image": "https://m.media-amazon.com/images/I/71wjPsqlX0L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 83,
+    "title": "The Da Vinci Code",
+    "description": "A symbologist's quest through secret societies.",
+    "price": 11.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 8765,
+    "image": "https://m.media-amazon.com/images/I/815WORuYMML._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 84,
+    "title": "Essentialism",
+    "description": "The disciplined pursuit of less.",
+    "price": 14.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 3210,
+    "image": "https://m.media-amazon.com/images/I/71-GQpG+-bL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 85,
+    "title": "Never Split the Difference",
+    "description": "Negotiating as if your life depended on it.",
+    "price": 16.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 4567,
+    "image": "https://m.media-amazon.com/images/I/71glO4OpH5L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 86,
+    "title": "The Secret Garden",
+    "description": "A classic tale of transformation and healing.",
+    "price": 8.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 4321,
+    "image": "https://m.media-amazon.com/images/I/71h4fIVGgGL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 87,
+    "title": "The Psychology of Money",
+    "description": "Timeless lessons on wealth, greed, and happiness.",
+    "price": 15.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 5234,
+    "image": "https://m.media-amazon.com/images/I/71g2ednj0JL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 88,
+    "title": "Where the Crawdads Sing",
+    "description": "A mystery and coming-of-age story in the marshes.",
+    "price": 13.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 9876,
+    "image": "https://m.media-amazon.com/images/I/81O0vB6GdJL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 89,
+    "title": "The Happiness Hypothesis",
+    "description": "Finding modern truth in ancient wisdom.",
+    "price": 14.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2543,
+    "image": "https://m.media-amazon.com/images/I/71K8TadbxnL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 90,
+    "title": "Measure What Matters",
+    "description": "How Google, Intel, and others use OKRs.",
+    "price": 18.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 2876,
+    "image": "https://m.media-amazon.com/images/I/71qz-8C+VLL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 91,
+    "title": "The Fault in Our Stars",
+    "description": "A love story about two teens with cancer.",
+    "price": 10.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 7890,
+    "image": "https://m.media-amazon.com/images/I/71biJKSmJ6L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 92,
+    "title": "The Obstacle Is the Way",
+    "description": "The timeless art of turning trials into triumph.",
+    "price": 13.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 3456,
+    "image": "https://m.media-amazon.com/images/I/71TI0gXOdTL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 93,
+    "title": "The Automatic Millionaire",
+    "description": "A powerful one-step plan to live and finish rich.",
+    "price": 14.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2987,
+    "image": "https://m.media-amazon.com/images/I/71pJuJHlKDL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 94,
+    "title": "Ender's Game",
+    "description": "A brilliant child's journey to save humanity.",
+    "price": 11.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 6543,
+    "image": "https://m.media-amazon.com/images/I/81a5KHEkwQL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 95,
+    "title": "The Anatomy of Peace",
+    "description": "Resolving the heart of conflict.",
+    "price": 15.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2345,
+    "image": "https://m.media-amazon.com/images/I/71x1MfPNYTL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 96,
+    "title": "Shoe Dog",
+    "description": "A memoir by Nike creator Phil Knight.",
+    "price": 17.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 4987,
+    "image": "https://m.media-amazon.com/images/I/81BE7eeKzAL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 97,
+    "title": "The Name of the Wind",
+    "description": "The first book in the Kingkiller Chronicle.",
+    "price": 12.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 8234,
+    "image": "https://m.media-amazon.com/images/I/91b8oNKDG7L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 98,
+    "title": "The 10X Rule",
+    "description": "The only difference between success and failure.",
+    "price": 16.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 3210,
+    "image": "https://m.media-amazon.com/images/I/71K4T8HzLDL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 99,
+    "title": "The Art of War",
+    "description": "Ancient military strategy for modern business.",
+    "price": 7.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 7654,
+    "image": "https://m.media-amazon.com/images/I/61WO9NKr+cL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 100,
+    "title": "Ready Player One",
+    "description": "A virtual reality treasure hunt in a dystopian future.",
+    "price": 13.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 6789,
+    "image": "https://m.media-amazon.com/images/I/A1XpGKS9cXL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
   }
 ]
