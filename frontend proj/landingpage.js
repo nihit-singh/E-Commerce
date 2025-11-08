@@ -1,8 +1,6 @@
 let cart = []; 
 let featuredBooks = []; 
-let currentCategory = 'all'; // State variable for current category
-
-// --- 1. Data Fetching and Rendering ---
+let currentCategory = 'all';
 
 async function fetchBooksAndInitialize() {
     try {
@@ -12,7 +10,6 @@ async function fetchBooksAndInitialize() {
         }
         featuredBooks = await response.json();
         
-        // Initial render and setup
         filterAndRenderBooks(); 
         setupEventListeners();
 
@@ -23,7 +20,6 @@ async function fetchBooksAndInitialize() {
     }
 }
 
-// Renders the book cards based on current filters
 function renderBookCards(books) {
     const container = document.getElementById('book-list-container');
     container.innerHTML = '';
@@ -51,19 +47,13 @@ function renderBookCards(books) {
     bindAddToCartListeners();
 }
 
-/**
- * Filters the featuredBooks array based on the current category 
- * state and the search input value, then calls renderBookCards.
- */
 function filterAndRenderBooks() {
     const searchTerm = document.getElementById('search').value.toLowerCase().trim();
     
     let filteredBooks = featuredBooks.filter(book => {
-        // 1. Category Filter: Checks if the book's category matches the active category ('all' bypasses this)
         const categoryMatch = currentCategory === 'all' || 
                               book.category.toLowerCase() === currentCategory;
 
-        // 2. Search Term Filter: Checks if the search term is found in the title, description, or category
         const searchMatch = book.title.toLowerCase().includes(searchTerm) ||
                             book.description.toLowerCase().includes(searchTerm) ||
                             book.category.toLowerCase().includes(searchTerm);
@@ -74,7 +64,6 @@ function filterAndRenderBooks() {
     renderBookCards(filteredBooks);
 }
 
-// --- 2. Cart Management Functions (Unchanged) ---
 
 function renderCart() {
   const cartList = document.getElementById('cart-items-list');
@@ -140,7 +129,6 @@ function removeItemFromCart(itemId) {
     showNotification(`🗑️ Item removed from cart.`);
 }
 
-// --- 3. Sidebar Toggle & Notification Functions (Unchanged) ---
 
 function toggleCart() {
   const sidebar = document.getElementById('cart-sidebar');
@@ -168,7 +156,6 @@ function showNotification(message) {
   }, 3000); 
 }
 
-// --- 4. Event Listener Setup ---
 
 function bindAddToCartListeners() {
     document.querySelectorAll('.add-cart').forEach(btn => {
@@ -184,7 +171,6 @@ function bindAddToCartListeners() {
             const originalText = btn.textContent;
             btn.textContent = '...Adding';
 
-            // Simulate an AJAX request delay
             setTimeout(() => {
                 addItemToCart(bookId);
 
@@ -198,25 +184,21 @@ function bindAddToCartListeners() {
     });
 }
 
-// Sets up the live search listener
 function setupSearchListener() {
     const searchInput = document.getElementById('search');
     // Using 'keyup' for live searching
     searchInput.addEventListener('keyup', filterAndRenderBooks);
 }
 
-// Sets up listeners for the category links
 function setupCategoryListeners() {
     const categoryLinks = document.querySelectorAll('.category-link');
     categoryLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             
-            // 1. Update active state in UI
             categoryLinks.forEach(l => l.classList.remove('active'));
             link.classList.add('active');
             
-            // 2. Update state variable and re-render
             currentCategory = link.getAttribute('data-category');
             filterAndRenderBooks();
         });
@@ -225,16 +207,13 @@ function setupCategoryListeners() {
 
 
 function setupEventListeners() {
-    // Cart/Sidebar Listeners
     document.getElementById('toggle-cart-btn').addEventListener('click', toggleCart);
     document.getElementById('close-cart-btn').addEventListener('click', toggleCart);
     document.getElementById('cart-overlay').addEventListener('click', toggleCart);
 
-    // Filter/Search Listeners
     setupSearchListener();
     setupCategoryListeners();
 }
 
 
-// --- 5. Initialization ---
 document.addEventListener('DOMContentLoaded', fetchBooksAndInitialize);
