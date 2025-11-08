@@ -1,4 +1,4 @@
-/* --- 1. CSS Variables for Theming --- */
+/* --- CSS Variables for Theming --- */
 :root {
   --primary-color: #2980b9;    
   --primary-hover: #3498db;
@@ -86,15 +86,15 @@ nav {
   display: flex;
   justify-content: center;
   gap: 30px;
-  flex-wrap: wrap; /* Added for responsiveness */
+  flex-wrap: wrap;
 }
 
 nav a {
   text-decoration: none;
   color: var(--secondary-color);
   font-weight: 500;
-  padding: 5px 12px; /* Adjusted padding */
-  border-radius: 6px; /* Added border-radius */
+  padding: 5px 12px;
+  border-radius: 6px;
   transition: background-color 0.2s, color 0.2s;
 }
 
@@ -346,7 +346,7 @@ footer {
     opacity: 1;
 }
 
-/* --- Mobile Responsiveness (Updated to account for cart) --- */
+/* --- Mobile Responsiveness --- */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -376,4 +376,5 @@ footer {
   :root {
       --cart-width: 90%; 
   }
+
 }
