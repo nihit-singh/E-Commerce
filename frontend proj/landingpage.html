@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BookEasy - Your Online Bookstore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="landingpage.css" />
+</head>
+<body>
+  
+  <div id="cart-overlay"></div>
+
+  <aside id="cart-sidebar">
+    <div class="cart-header">
+      <h3>🛒 Shopping Cart</h3>
+      <button id="close-cart-btn" aria-label="Close cart">&times;</button>
+    </div>
+    
+    <div id="cart-items-list">
+      <p class="empty-cart-message">Your cart is empty.</p>
+    </div>
+    
+    <div class="cart-summary">
+      <p>Subtotal: <span id="cart-subtotal">$0.00</span></p>
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </aside>
+
+  <header>
+    <div class="logo">📚 BookEasy</div>
+    <input type="text" id="search" placeholder="Search books..." aria-label="Search books" />
+    <div class="icons">
+      <a href="#" aria-label="User Account"><i class="fas fa-user"></i></a>
+      <a href="#" aria-label="Wishlist"><i class="fas fa-heart"></i></a>
+      <button id="toggle-cart-btn" aria-label="Shopping Cart">🛒
+        <i class="fas fa-shopping-cart"></i>
+        <span id="cart-count-badge">0</span>
+      </button>
+    </div>
+  </header>
+
+  <nav id="category-nav">
+    <a href="#" class="category-link active" data-category="all">All Books</a>
+    <a href="#" class="category-link" data-category="fiction">Fiction</a>
+    <a href="#" class="category-link" data-category="self-help">Self-Help</a>
+    <a href="#" class="category-link" data-category="business">Business</a>
+    <a href="#" class="category-link" data-category="support">Support</a>
+  </nav>
+
+  <main>
+    <h2>Featured Books</h2>
+    <div class="product-grid" id="book-list-container">
+      </div>
+  </main>
+
+  <footer>
+    <p>© 2025 BookEasy | Designed by Nihit Singh</p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> 
+  <script src="landingpage.js"></script>
+</body>
+</html>

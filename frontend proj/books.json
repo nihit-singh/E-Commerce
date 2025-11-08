@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "The Alchemist",
+    "description": "A journey of self-discovery and destiny by Paulo Coelho.",
+    "price": 14.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 1234,
+    "image": "https://m.media-amazon.com/images/I/81gepf1eMqL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 2,
+    "title": "The Power of Now",
+    "description": "Spiritual enlightenment and living in the present moment.",
+    "price": 12.49,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 856,
+    "image": "https://m.media-amazon.com/images/I/71aFt4+OTOL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 3,
+    "title": "Atomic Habits",
+    "description": "Small habits that lead to big life changes by James Clear.",
+    "price": 17.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 3421,
+    "image": "https://m.media-amazon.com/images/I/81vpsIs58WL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 4,
+    "title": "Ikigai",
+    "description": "The Japanese secret to a long and happy life.",
+    "price": 13.99,
+    "rating": "⭐⭐⭐⭐",
+    "reviews": 2012,
+    "image": "https://m.media-amazon.com/images/I/81WcnNQ-TBL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  },
+  {
+    "id": 5,
+    "title": "Rich Dad Poor Dad",
+    "description": "Learn financial freedom through smart money mindset.",
+    "price": 11.49,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 4670,
+    "image": "https://m.media-amazon.com/images/I/81YkqyaAYaL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 6,
+    "title": "Think Like a Monk",
+    "description": "Train your mind for peace and purpose by Jay Shetty.",
+    "price": 15.99,
+    "rating": "⭐⭐⭐⭐⭐",
+    "reviews": 1790,
+    "image": "https://m.media-amazon.com/images/I/71g2ednj0JL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": "Self-Help"
+  }
+]
